@@ -1,8 +1,8 @@
-git lfs track "kypoint/kypoint/Lib/site-packages/torch/lib/torch_cpu.dll"
-git lfs track "kypoint/kypoint/model/model/pytorch-keypoint-r-cnn/2025-02-09_22-25-32_Newdata/keypointrcnn_resnet50_fpn.pth"
-git lfs track "kypoint/kypoint/model/model/pytorch-keypoint-r-cnn/2025-02-09_22-25-32_Newdata/labelme-keypoint-eyes-noses-dataset-keypointrcnn_resnet50_fpn.onnx"
-git lfs track ".vs/web/v17/Browse.VC.db"
-git lfs track "kypoint/kypoint/Lib/site-packages/torch/lib/dnnl.lib"
+kypoint/kypoint/Lib/site-packages/torch/lib/torch_cpu.dll filter=lfs diff=lfs merge=lfs -text
+kypoint/kypoint/model/model/pytorch-keypoint-r-cnn/2025-02-09_22-25-32_Newdata/keypointrcnn_resnet50_fpn.pth filter=lfs diff=lfs merge=lfs -text
+kypoint/kypoint/model/model/pytorch-keypoint-r-cnn/2025-02-09_22-25-32_Newdata/labelme-keypoint-eyes-noses-dataset-keypointrcnn_resnet50_fpn.onnx filter=lfs diff=lfs merge=lfs -text
+.vs/web/v17/Browse.VC.db filter=lfs diff=lfs merge=lfs -text
+kypoint/kypoint/Lib/site-packages/torch/lib/dnnl.lib filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.pyc filter=lfs diff=lfs merge=lfs -text
